@@ -8,13 +8,13 @@ const Skills2 = () => (
     <div
       className='bg-center bg-no-repeat bg-cover before:absolute before:inset-0 before:opacity-95 before:bg-accent bg-accent bg-blend-screen lg:rounded-l-[3.125rem] md:rounded-l-8 sm:rounded-l-5 rounded-l-0 overflow-hidden absolute w-[90.3125rem] right-0 top-0 bottom-0'
       style={{ backgroundImage: `url(${SectionBg})` }}
-     />
+    />
     <div className='container sm:container md:container lg:container xl:max-w-[44.6875rem] mx-auto'>
       <SectionTitleLightFull
         title='My Skill &'
         titleInner='Advantage'
         desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.'
-       />
+      />
       <div className='skillsList grid gap-[1.875rem] grid-cols-1 sm:grid-cols-2 relative w-full'>
         {skills.map(
           (item, index) =>

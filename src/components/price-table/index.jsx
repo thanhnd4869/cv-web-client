@@ -10,13 +10,13 @@ const PriceTable = () => (
     <div
       className='top-[-15.625rem] bg-center bg-cover bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-[.85] before:bg-gray bg-gray bg-blend-multiply overflow-hidden inset-0 bottom-[14.375rem] z-[-2] absolute'
       style={{ backgroundImage: `url(${SectionBg})` }}
-     />
+    />
     <div className='container sm:container md:container lg:container xl:max-w-[73.125rem] mx-auto'>
       <SectionTitle3
         title='My Pricing'
         titleInner='Plans'
         desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.'
-       />
+      />
       <div className='priceTableBoxes grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 xl:gap-[3.75rem] relative items-start w-100'>
         {priceTable.map(
           (item, index) =>
