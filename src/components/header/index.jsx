@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useRef } from 'react';
+import React, { Fragment, useLayoutEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Logo2 from '../../assets/images/logo2.png';
 import ResponsiveHeader from '../responsive-header';
@@ -35,7 +35,7 @@ const Header2 = () => {
   }, []);
 
   return (
-    <React.Fragment>
+    <Fragment>
       <header
         className='fixed transition-all ease-in duration-300 top-0 left-0 w-full py-8 z-[9999] hidden lg:block'
         ref={refHeader}
@@ -69,7 +69,7 @@ const Header2 = () => {
         {/* Header */}
       </header>
       <ResponsiveHeader />
-    </React.Fragment>
+    </Fragment>
   );
 };
 

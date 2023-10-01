@@ -5,7 +5,7 @@ import BlogPost2 from '../../components/blog-posts';
 import BottomBar from '../../components/bottom-bar';
 import ContactUs2 from '../../components/contact-us';
 import Education2 from '../../components/education';
-import FreelanceWork2 from '../../components/freelance-work';
+import { FreelanceWork2 } from '../../components/freelance-work';
 import FunFacts from '../../components/fun-facts';
 import Header2 from '../../components/header';
 import MyExperienceAndSkills from '../../components/my-experience-and-skills';

@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import SmoothScroll from '../components/smooth-scroll';
+import BlogPage from '../pages/blog-pages';
+import ErrorPage from '../pages/error-page';
 import HomePage2 from '../pages/home-pages';
 
 const RouterLinks = () => (
@@ -8,7 +10,7 @@ const RouterLinks = () => (
       <SmoothScroll>
         <Routes>
           <Route path='/' element={<HomePage2 />} />
-          {/* <Route path="/blog" element={<BlogPage></BlogPage>} /> */}
+          <Route path='/blog' element={<BlogPage />} />
           {/* <Route path="/blog/:Id" element={<BlogDetail></BlogDetail>} /> */}
           {/* <Route path="/plans" element={<PlansPage></PlansPage>} /> */}
           {/* <Route path="/service" element={<ServicePage></ServicePage>} /> */}
@@ -16,8 +18,8 @@ const RouterLinks = () => (
           {/* <Route path="/portfolio/:Id" element={<PortfolioDetail></PortfolioDetail>} /> */}
           {/* <Route path="/portfolio2" element={<PortfolioPage2></PortfolioPage2>} /> */}
           {/* <Route path="/contact" element={<ContactPage></ContactPage>} /> */}
-          {/* <Route path="/404" element={<ErrorPage></ErrorPage>} /> */}
-          {/* <Route path="*" element={<ErrorPage></ErrorPage>} /> */}
+          <Route path='/404' element={<ErrorPage />} />
+          <Route path='*' element={<ErrorPage />} />
         </Routes>
       </SmoothScroll>
     </BrowserRouter>
