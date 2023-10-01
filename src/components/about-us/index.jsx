@@ -1,6 +1,6 @@
 import { GoDotFill } from 'react-icons/go';
 import PatternImg2 from '../../assets/images/patternImg2.jpg';
-import AboutImg from '../../assets/images/resources/aboutImg.jpg';
+// import AboutImg from '../../assets/images/resources/aboutImg.jpg';
 import SectionBg from '../../assets/images/secBg6.jpg';
 import { ReactComponent as Signature } from '../../lib/icons/Signature.svg';
 import calculateAge from '../../utils/calculateAge';
@@ -22,7 +22,7 @@ const AboutUs2 = () => (
             <div className='aboutImg relative mb-0 lg:-mb-20'>
               <img
                 className='rounded-[10px] sm:rounded-[1.25rem] md:rounded-[3.125rem] relative z-[1] w-full'
-                src={AboutImg}
+                src='https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/379885263_1987889181571049_2057114758453098738_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=_eOHY6IDqV0AX-l5_tJ&_nc_ht=scontent.fhan2-3.fna&oh=00_AfCsy_mztonA1MnAgs0t-XmNN33pJO3wTfLbDUQ_l6xB9Q&oe=651ECE96'
                 alt=''
               />
               {/* About Image */}
@@ -34,11 +34,11 @@ const AboutUs2 = () => (
                 Hello, I Am
               </h3>
               <h2 className='text-white font-bold text-[1.875rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[4.375rem] leading-normal my-2 md:my-0 font-Poppins uppercase'>
-                Alycia <span className='text-accent font-normal'>Carey</span>
+                Thanh <span className='text-accent font-normal'>ND</span>
               </h2>
               <h5 className='justify-start font-bold text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] font-Poppins text-white uppercase flex items-center gap-2.5 tracking-[1px]'>
                 <span className='w-[2.5rem] sm:w-[3rem] md:w-[4.375rem] bg-accent h-[1px]' />
-                UI/UX Designer
+                Web Developer
               </h5>
               <ul className='grid grid-cols-1 gap-3 sm:gap-5 mt-7'>
                 <li className='grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]'>
@@ -56,10 +56,10 @@ const AboutUs2 = () => (
                   <span className='text-desc font-semibold font-NunitoSans col-span-2'>
                     <a
                       className='text-desc font-semibold font-NunitoSans hover:text-accent'
-                      href='tel:+12 986 987 7867'
+                      href='tel:034 234 0234'
                       title=''
                     >
-                      +12 986 987 7867
+                      034 234 0234
                     </a>
                   </span>
                 </li>
@@ -70,10 +70,10 @@ const AboutUs2 = () => (
                   <span className='text-desc font-semibold font-NunitoSans col-span-2'>
                     <a
                       className='text-desc font-semibold font-NunitoSans hover:text-accent'
-                      href='mailto:youremail@gmail.com'
+                      href='mailto:thanhnd4869@gmail.com'
                       title=''
                     >
-                      youremail@gmail.com
+                      thanhnd4869@gmail.com
                     </a>
                   </span>
                 </li>
@@ -82,7 +82,7 @@ const AboutUs2 = () => (
                     Address:
                   </strong>
                   <span className='text-desc font-semibold font-NunitoSans col-span-2'>
-                    37, Pollsatnd, New York, United State
+                    Ha Trach, Bo Trach, Quang Binh
                   </span>
                 </li>
                 <li className='grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]'>

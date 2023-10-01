@@ -5,12 +5,12 @@ import { ReactComponent as TwitterIcon } from '../lib/icons/Twitter.svg';
 const social2 = [
   {
     socialIcon: <FacebookIcon className='h-5 w-5 lg:h-8 lg:w-8 fill-accent2 hover:fill-accent' />,
-    socialLink: 'https://www.facebook.com/',
+    socialLink: 'https://www.facebook.com/thanhnd4869/',
     socialTitle: 'Facebook',
   },
   {
     socialIcon: <TumblrIcon className='h-5 w-5 lg:h-8 lg:w-8 fill-accent2 hover:fill-accent' />,
-    socialLink: '#',
+    socialLink: 'https://www.tumblr.com/',
     socialTitle: 'Tumblr',
   },
   {

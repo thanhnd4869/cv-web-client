@@ -26,7 +26,7 @@ const MenuLinks = () => (
           <li className='relative text-[.9375rem] font-Poppins font-semibold capitalize pt-2'>
             <Link
               className='hover:text-accent text-accent2 pr-5 relative block'
-              to='/home2'
+              to='/'
               title='Homepage 2'
             >
               Homepage 2
@@ -55,7 +55,7 @@ const MenuLinks = () => (
           <li className='relative text-[.9375rem] font-Poppins font-semibold capitalize pt-2'>
             <Link
               className='hover:text-accent text-accent2 pr-5 relative block'
-              to='/blog2'
+              to='/blog'
               title='Blog Style 2'
             >
               Blog Style 2
@@ -85,27 +85,9 @@ const MenuLinks = () => (
             <Link
               className='hover:text-accent text-accent2 pr-5 relative block'
               to='/portfolio'
-              title='Portfolio Style 1'
+              title='Portfolio'
             >
-              Portfolio Style 1
-            </Link>
-          </li>
-          <li className='relative text-[.9375rem] font-Poppins font-semibold capitalize pt-2'>
-            <Link
-              className='hover:text-accent text-accent2 pr-5 relative block'
-              to='/portfolio2'
-              title='Portfolio Style 2'
-            >
-              Portfolio Style 2
-            </Link>
-          </li>
-          <li className='relative text-[.9375rem] font-Poppins font-semibold capitalize pt-2'>
-            <Link
-              className='hover:text-accent text-accent2 pr-5 relative block'
-              to='/portfolio3'
-              title='Portfolio Style 3'
-            >
-              Portfolio Style 3
+              Portfolio
             </Link>
           </li>
           <li className='relative text-[.9375rem] font-Poppins font-semibold capitalize pt-2'>

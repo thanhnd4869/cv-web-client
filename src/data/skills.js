@@ -10,14 +10,12 @@ const skills = [
     skillIcon: <JavaScriptIcon className='h-10 w-10' />,
     skillTitle: 'JavaScript',
     skillDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    skillPercent: '62%',
   },
   {
     skillBox: 'pb-10 pt-10 sm:pt-5 sm:pb-10 sm:pl-10 border-b-[1px] border-[#9bb1cf]',
     skillIcon: <HtmlIcon className='h-10 w-10' />,
     skillTitle: 'HTML/CSS3',
     skillDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    skillPercent: '94%',
   },
   {
     skillBox:
@@ -25,14 +23,12 @@ const skills = [
     skillIcon: <PhotoshopIcon className='h-10 w-10' />,
     skillTitle: 'Photoshop',
     skillDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    skillPercent: '72%',
   },
   {
     skillBox: 'pt-10 sm:pb-5 sm:pt-10 sm:pl-10',
     skillIcon: <WordPressIcon className='h-10 w-10' />,
     skillTitle: 'WordPress',
     skillDesc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    skillPercent: '80%',
   },
 ];
 
