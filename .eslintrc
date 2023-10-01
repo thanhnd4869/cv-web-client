@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "plugins": ["react", "prettier"],
+  "plugins": ["react", "import", "prettier"],
   "settings": {
     "react": {
       "pragma": "React",
@@ -16,8 +16,11 @@
       }
     }
   },
-  "extends": ["plugin:react/recommended", "airbnb-base", "prettier"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "airbnb-base", "prettier"],
   "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
@@ -35,6 +38,15 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "return" }
+    ],
+    "react/prop-types": "off",
+    "no-nested-ternary": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": ["tailwind.config.js"] }],
+    "no-plusplus": "off",
+    "react/self-closing-comp": "error"
   }
 }

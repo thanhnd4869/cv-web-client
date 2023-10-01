@@ -13,10 +13,6 @@
     "type": "git",
     "url": "git+https://github.com/thanhnd4869/cv-web-client.git"
   },
-  "homepage": "https://github.com/thanhnd4869/cv-web-client#readme",
-  "bugs": {
-    "url": "https://github.com/thanhnd4869/cv-web-client/issues"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -28,15 +24,26 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.23",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.29.0",
+    "react-spinners-kit": "^1.9.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^10.3.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
     "eslint": "^8.50.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.0.0",
@@ -45,8 +52,11 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.0",
     "prettier": "^3.0.3",
-    "husky": "^8.0.0"
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.3.3"
   },
   "browserslist": {
     "production": [
@@ -62,12 +72,10 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix .",
-      "git add ."
+      "eslint --fix ."
     ],
     "*.{json,js,ts,jsx,tsx,html}": [
-      "prettier --write .",
-      "git add ."
+      "prettier --write ."
     ]
   }
 }
