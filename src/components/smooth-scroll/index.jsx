@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { Fragment, useEffect } from 'react';
 import { useLocation, useNavigationType } from 'react-router-dom';
 
 const SmoothScroll = ({ children }) => {
@@ -14,7 +14,7 @@ const SmoothScroll = ({ children }) => {
     }
   }, [location]);
 
-  return <>{children}</>;
+  return <Fragment>{children}</Fragment>;
 };
 
 export default SmoothScroll;

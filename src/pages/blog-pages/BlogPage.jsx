@@ -1,15 +1,15 @@
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { FaCalendarAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import PatternImg2 from '../../assets/images/patternImg2.jpg';
 import BottomBar from '../../components/bottom-bar';
-import ContactUs2 from '../../components/contact-us';
+import { ContactUs2 } from '../../components/contact-us';
 import { FreelanceWork3 } from '../../components/freelance-work';
 import Header2 from '../../components/header';
 import PageTitle from '../../components/page-title';
-import Pagination from '../../components/pagination';
-import Sidebar from '../../components/sidebar';
+import { Pagination } from '../../components/pagination';
+import { Sidebar } from '../../components/sidebar';
 import posts from '../../data/posts';
 
 const BlogPage = () => (

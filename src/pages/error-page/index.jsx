@@ -5,10 +5,10 @@ import { FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import ErrorMockup from '../../assets/images/resources/404Mockup.png';
 import BottomBar from '../../components/bottom-bar';
-import ContactUs2 from '../../components/contact-us';
 import Header2 from '../../components/header';
 import PageTitle from '../../components/page-title';
 import Partners2 from '../../components/partners';
+import { ContactUs2 } from '../../components/contact-us';
 
 const ErrorPage = () => (
   <Fragment>

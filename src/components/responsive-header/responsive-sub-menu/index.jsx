@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const ResponsiveSubMenu = ({ item }) => {
@@ -6,7 +6,7 @@ const ResponsiveSubMenu = ({ item }) => {
   const showResponsiveSubnav = () => setResponsiveSubnav(!responsiveSubnav);
 
   return (
-    <>
+    <Fragment>
       <li>
         <span className='flex justify-between items-center w-full relative'>
           <Link
@@ -36,7 +36,7 @@ const ResponsiveSubMenu = ({ item }) => {
           </ul>
         )}
       </li>
-    </>
+    </Fragment>
   );
 };
 

@@ -1,9 +1,9 @@
 import SectionBg from '../../assets/images/secBg11.jpg';
-import ContactForm2 from '../contact-form';
-import ContactInfo2 from '../contact-info';
-import SocialLinks3 from '../social-links/SocialLinks3';
+import { ContactForm2 } from '../contact-form';
+import { ContactInfo2 } from '../contact-info';
+import { SocialLinks3 } from '../social-links';
 
-const ContactUs2 = () => (
+const ContactUs = () => (
   <section className='contactUsWrap pb-14 sm:pb-15 md:pb-20 relative w-full'>
     <div
       className='absolute z-[-2] inset-0 top-[11.25rem] bg-center bg-no-repeat before:absolute before:z-[1] before:inset-0 before:opacity-90 before:bg-dark bg-dark gradBg1 bg-blend-color-dodge overflow-hidden'
@@ -25,4 +25,4 @@ const ContactUs2 = () => (
   </section>
 );
 
-export default ContactUs2;
+export default ContactUs;

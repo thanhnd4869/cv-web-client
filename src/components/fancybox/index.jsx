@@ -1,6 +1,6 @@
 import { Fancybox } from '@fancyapps/ui';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
-import React, { useEffect } from 'react';
+import React, { Fragment, useEffect } from 'react';
 
 const FancyboxComponent = (props) => {
   const delegate = props.delegate || '[data-fancybox]';
@@ -15,7 +15,7 @@ const FancyboxComponent = (props) => {
     };
   }, []);
 
-  return <>{props.children}</>;
+  return <Fragment>{props.children}</Fragment>;
 };
 
 export default FancyboxComponent;
