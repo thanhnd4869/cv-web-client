@@ -38,7 +38,7 @@ const AboutUs2 = () => (
               </h2>
               <h5 className='justify-start font-bold text-[1rem] sm:text-[1.125rem] md:text-[1.25rem] font-Poppins text-white uppercase flex items-center gap-2.5 tracking-[1px]'>
                 <span className='w-[2.5rem] sm:w-[3rem] md:w-[4.375rem] bg-accent h-[1px]' />
-                Web Developer
+                Software Engineer
               </h5>
               <ul className='grid grid-cols-1 gap-3 sm:gap-5 mt-7'>
                 <li className='grid grid-cols-3 gap-4 text-[1rem] md:text-[1.125rem]'>
