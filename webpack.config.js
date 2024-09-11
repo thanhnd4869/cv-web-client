@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ESLintWebpackPlugin = require('eslint-webpack-plugin');
 
 module.exports = {
     entry: './src/index.jsx',
@@ -44,6 +45,11 @@ module.exports = {
             inject: 'body',
             favicon: './public/favicon.ico',
             manifest: './public/manifest.json',
+        }),
+        new ESLintWebpackPlugin({
+            extensions: ['js', 'jsx'],
+            overrideConfigFile: path.resolve(__dirname, 'eslint.config.mjs'),
+            configType: 'flat',
         }),
     ],
 };
