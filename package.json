@@ -13,7 +13,7 @@
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "format": "prettier --write .",
-        "prepare": "husky install"
+        "prepare": "husky"
     },
     "devDependencies": {
         "@babel/core": "^7.25.2",
