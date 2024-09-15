@@ -13,6 +13,7 @@ const config = {
     bracketSpacing: true,
     jsxBracketSameLine: false,
     arrowParens: 'avoid',
+    endOfLine: 'auto',
 };
 
 export default config;
