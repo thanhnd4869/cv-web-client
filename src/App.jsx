@@ -2,7 +2,7 @@ import './App.css';
 
 const App = () => {
     var unusedVariable = 'This will not trigger a warning';
-    
+
     return (
         <div className="App">
             <header className="App-header">
