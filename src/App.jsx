@@ -1,19 +1,17 @@
-import './App.css';
+import { useEffect } from "react";
+import Aos from "aos";
+
+import RouterLinks from "./router";
 
 const App = () => {
-    var unusedVariable = 'This will not trigger a warning';
+    useEffect(() => {
+        Aos.init({ once: true });
+    }, []);
 
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <>
+            <RouterLinks></RouterLinks>
+        </>
     );
 };
 

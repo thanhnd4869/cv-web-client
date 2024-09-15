@@ -12,11 +12,7 @@ export default [
         files: ['**/*.{js,mjs,cjs,jsx}'],
         ignores: ['**/webpack.config.js'],
         languageOptions: {
-            globals: {
-                ...globals.browser,
-                jest: true,
-            },
-            ecmaVersion: 2021,
+            globals: globals.browser,
             sourceType: 'module',
             parserOptions: {
                 ecmaFeatures: {
@@ -38,7 +34,7 @@ export default [
             },
             'import/resolver': {
                 node: {
-                    extensions: ['.js', '.jsx'],
+                    extensions: ['.js', '.jsx', '.ts', '.tsx'],
                     moduleDirectory: ['node_modules', './'],
                 },
             },
@@ -52,7 +48,6 @@ export default [
             'no-unused-vars': 'warn',
             'no-console': 'warn',
             'no-eval': 'error',
-            'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx'] }],
             'import/extensions': [
                 'error',
                 'ignorePackages',
@@ -81,6 +76,14 @@ export default [
                     specialLink: ['to'],
                     aspects: ['noHref', 'invalidHref', 'preferButton'],
                 },
+            ],
+            'padding-line-between-statements': [
+                'error',
+                { blankLine: 'always', prev: '*', next: 'return' },
+                { blankLine: 'always', prev: '*', next: 'if' },
+                { blankLine: 'always', prev: '*', next: 'for' },
+                { blankLine: 'always', prev: '*', next: 'while' },
+                { blankLine: 'always', prev: '*', next: 'switch' },
             ],
         },
     },
