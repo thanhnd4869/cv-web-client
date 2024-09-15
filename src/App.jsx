@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import Aos from "aos";
+import { useEffect } from 'react';
+import Aos from 'aos';
 
-import RouterLinks from "./router";
+import RouterLinks from './router';
 
 const App = () => {
     useEffect(() => {
