@@ -1,0 +1,41 @@
+@import url('../../styles/common/variable.css');
+
+.st-post-single.st-style1 .st-post-thumb {
+    display: block;
+    overflow: hidden;
+}
+
+.st-post-single.st-style1 .st-post-thumb img {
+    width: 100%;
+}
+
+.st-post-single.st-style1 .st-post-date {
+    font-size: 14px;
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+
+.st-post-single.st-style1 .st-post-date .st-post-date-divider {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.st-post-single.st-style1 .st-post-date .st-post-author,
+.st-post-single.st-style1 .st-post-date .st-post-publish-date {
+    color: var(--base-color1);
+}
+
+.st-post-single.st-style1 .st-post-date .st-post-author:hover {
+    opacity: 0.8;
+}
+
+.st-post-single.st-style1 .st-post-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-bottom: 0;
+}
+
+.st-post-single.st-style1 .st-post-title:hover {
+    color: var(--base-color1);
+}

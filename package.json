@@ -44,6 +44,7 @@
     "dependencies": {
         "@iconify/react": "^5.0.2",
         "aos": "^2.3.4",
+        "bootstrap": "^5.3.3",
         "gsap": "^3.12.5",
         "html-react-parser": "^5.1.17",
         "prop-types": "^15.8.1",
@@ -51,7 +52,9 @@
         "react-dom": "^18.3.1",
         "react-router-dom": "^6.26.2",
         "react-scroll": "^1.9.0",
-        "react-water-wave": "^2.0.1"
+        "react-slick": "^0.30.2",
+        "react-water-wave": "^2.0.1",
+        "slick-carousel": "^1.8.1"
     },
     "lint-staged": {
         "*.{js,mjs,cjs,js}": "yarn lint:fix",
