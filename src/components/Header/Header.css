@@ -18,8 +18,8 @@
 }
 
 .st-site-header.st-style1.st-sticky-active {
-    background-color: rgba(var(--dark-color2), 0.9);
-    box-shadow: 0 10px 10px -10px rgba(var(--dark-color2), 0.9);
+    background-color: rgba(var(--dark-color2-rgb), 0.9);
+    box-shadow: 0 10px 10px -10px rgba(var(--dark-color2-rgb), 0.9);
 }
 
 @media screen and (max-width: 991px) {
