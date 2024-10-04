@@ -85,6 +85,13 @@ export default [
                 { blankLine: 'always', prev: '*', next: 'while' },
                 { blankLine: 'always', prev: '*', next: 'switch' },
             ],
+            'react/self-closing-comp': [
+                'error',
+                {
+                    component: true,
+                    html: true,
+                },
+            ],
         },
     },
 ];
