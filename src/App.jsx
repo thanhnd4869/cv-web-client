@@ -1,14 +1,18 @@
 import { useEffect } from 'react';
+import { AOS } from 'aos';
+
+import RouterLinks from './router/RouterLinks';
+
+import 'aos/dist/aos.css';
 
 function App() {
-    useEffect(() => {}, []);
+    useEffect(() => {
+        AOS.init({ once: true });
+    }, []);
 
     return (
         <>
-            {/* <RouterLinks /> */}
-            <>
-                <h1>Hello World</h1>
-            </>
+            <RouterLinks />
         </>
     );
 }
