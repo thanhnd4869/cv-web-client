@@ -1,0 +1,54 @@
+@import url('../../styles/common/variable.css');
+
+.st-about-img {
+    min-height: 550px;
+}
+
+.st-about-img-wrap {
+    padding-right: 30px;
+}
+
+.st-text-block.st-style1 .st-text-block-title {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.st-text-block.st-style1 .st-text-block-subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--base-color1);
+    margin-bottom: 18px;
+}
+
+.st-text-block.st-style1 .st-text-block-text p {
+    margin-bottom: 18px;
+}
+
+.st-text-block.st-style1 .st-text-block-btn {
+    margin-top: 43px;
+}
+
+.st-text-block-details li {
+    margin-bottom: 14px;
+}
+
+.st-text-block-details li:last-child {
+    margin-bottom: 0;
+}
+
+.st-text-block-details li span:first-child {
+    display: inline-block;
+    width: 108px;
+    margin-right: -5px;
+}
+
+.st-text-block-details li span:last-child {
+    margin-left: 7px;
+}
+
+@media screen and (max-width: 991px) {
+    .st-about-img-wrap {
+        padding-right: 0px;
+    }
+}
