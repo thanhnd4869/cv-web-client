@@ -1,6 +1,8 @@
+/* eslint-disable no-undef */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintWebpackPlugin = require('eslint-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.jsx',
@@ -50,6 +52,9 @@ module.exports = {
             extensions: ['js', 'jsx'],
             overrideConfigFile: path.resolve(__dirname, 'eslint.config.mjs'),
             configType: 'flat',
+        }),
+        new CopyWebpackPlugin({
+            patterns: [{ from: 'public', to: '', globOptions: { ignore: ['**/index.html'] } }],
         }),
     ],
 };

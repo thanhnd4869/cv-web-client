@@ -1,4 +1,4 @@
-@import url('./variable.scss');
+@import url('./variable.css');
 
 @media (min-width: 1400px) {
     .container {

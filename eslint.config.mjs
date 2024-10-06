@@ -10,7 +10,7 @@ import globals from 'globals';
 export default [
     {
         files: ['**/*.{js,mjs,cjs,jsx}'],
-        ignores: ['**/webpack.config.js'],
+        ignores: ['build/**', 'public/assets/**'],
         languageOptions: {
             globals: globals.browser,
             sourceType: 'module',
