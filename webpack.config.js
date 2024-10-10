@@ -9,6 +9,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/build'),
         filename: 'bundle.js',
+        publicPath: '/',
         clean: true,
     },
     devServer: {
@@ -18,6 +19,7 @@ module.exports = {
         compress: true,
         port: 3000,
         hot: true,
+        historyApiFallback: true,
     },
     devtool: 'source-map',
     module: {

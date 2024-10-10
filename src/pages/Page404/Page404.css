@@ -1,0 +1,24 @@
+@import url('../../styles/common/variable.css');
+
+.st-page-not-found {
+    height: calc(100vh - 80px);
+}
+
+.st-page-not-found h3 {
+    font-size: 120px;
+    color: var(--dark-color3);
+    text-shadow:
+        1px 1px 0 var(--base-color1),
+        1px -1px 0 var(--base-color1),
+        -1px 1px 0 var(--base-color1),
+        -1px -1px 0 var(--base-color1);
+}
+
+.st-page-not-found h4 {
+    color: var(--base-color1);
+}
+
+.st-page-not-found p {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
